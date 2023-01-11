@@ -11,30 +11,30 @@
 	<form method="post">
 		<h1> Car Insurance Form</h1>
 		<label for="name"> Name </label>
-		<input type="text" id="name">
+		<input type="text" id="name" required>
 		<br>
 		<label for="email"> Email </label>
-		<input type="text" id = "email">
+		<input type="text" id = "email" required>
 		<br>
 		<label for = "gender"> Gender</label>
-		<input type = "radio" name = "gender">Male
-		<input type = "radio" name = "gender">Female
+		<input type = "radio" name = "gender" required>Male
+		<input type = "radio" name = "gender" required>Female
 		<br>
-		<label for="cars"> Car Brand </label>
-		<select id = "cars" name = "cars">
-			<option value = "BMW">BMW</option>
+		<label for="cars"> Car Brands </label>
+		<select id = "cars" name = "cars" >
+			<option value = "BMW" >BMW</option>
 			<option value = "Audi">Audi</option>
 			<option value = "Mercedez">Mercedez</option>
 		</select>
 		<br>
-		<label for= "carage"> Car age</label>
-		<input type="text" id="carage">
+		<label for= "carage"> Car Age</label>
+		<input type="text" id="carage" required>
 		<br>
 		<label for= "dop"> Date of Purchase </label>
-		<input type = "date" id = "dop">
+		<input type = "date" id = "dop" required>
 		<br>
 		<label for="password"> Password</label>
-		<input type= "password" id = "password">
+		<input type= "password" id = "password" required>
 		<br>
 		<button type="submit">Submit </button>
 	</form>
